@@ -24,10 +24,10 @@ You need to have the following setup on your iPhone
 > 1. Go to Shortcuts>Automation
 > 2. Create a new automation
 > <br>
-> <img src="./image-2.png" width="800" height="200"><br>
+> <img src="./image-2.png" width="800" height="100"><br>
 > 3. Click on Message
 > <br>
-> <img src="./image-1.png" width="800" height="200"><br>
+> <img src="./image-1.png" width="800" height="100"><br>
 > <br>
 > 4. Add the message "debited","spent"
 > <br>
@@ -35,7 +35,7 @@ You need to have the following setup on your iPhone
 > <br>
 > 5. Click On create new blank Automation
 > <br>
-> !<img src="./image-4.png" width="400" height="600"><br>
+> !<img src="./image-4.png" width="400" height="400"><br>
 > 6. Click on add action
 > 7. Click on Web>Get Content of URL
 > 8. change request method to post
@@ -61,7 +61,7 @@ add your mongodb database credentials and the OpenAi APIKEY
 
 
 Output will look like this
-<video src="https://drive.google.com/file/d/1APdmivyWeoaqdHL1m4bgF3YN4xwHMKg-/view?usp=drive_link"></video>
+(https://drive.google.com/file/d/1APdmivyWeoaqdHL1m4bgF3YN4xwHMKg-/view?usp=drive_link)
 
 
 Thanks for dropping by!!
