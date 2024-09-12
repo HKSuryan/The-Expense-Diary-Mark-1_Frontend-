@@ -23,18 +23,19 @@ The Expense Diary is a simple tool that helps you track your expenses.
 You need to have the following setup on your iPhone
 > 1. Go to Shortcuts>Automation
 > 2. Create a new automation
-> <img src="./image-2.png" width="400" height="400">
+<br>
+> <img src="./image-2.png" width="800" height="200"><br>
 > 3. Click on Message
-> <img src="./image-1.png" width="400" height="400">
+> <img src="./image-1.png" width="800" height="200"><br>
 > 4. Add the message "debited","spent"
-> <img src="./image-3.png" width="400" height="400">
+> <img src="./image-3.png" width="300" height="600"><br>
 > 5. Click On create new blank Automation
-> !<img src="./image-4.png" width="400" height="400">
+> !<img src="./image-4.png" width="300" height="600"><br>
 > 6. Click on add action
 > 7. Click on Web>Get Content of URL
 > 8. change request method to post
 > 9. change the request body to the following
-> !<img src="./image.png" width="400" height="400">
+> !<img src="./image.png" width="300" height="600"><br>
 > 10. The url will consist of the hosted SpringBoot backend connected to MongoDb databse
 
 ## MongoDB
