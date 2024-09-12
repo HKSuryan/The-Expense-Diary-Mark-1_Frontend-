@@ -61,7 +61,7 @@ add your mongodb database credentials and the OpenAi APIKEY
 
 
 Output will look like this
-[Watch the demo video](https://github.com/HKSuryan/The-Expense-Diary-Mark-1_Frontend-/blob/main/demo.mp4)
+[Watch the demo video](https://drive.google.com/file/d/1JTDxE08Zue6xAnnwQw7XLOwf4ppGowLm/view?usp=drive_link)
 
 Thanks for dropping by!!
 
