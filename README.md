@@ -1,71 +1,65 @@
-# Getting Started with Create React App
+# The Expense Diary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Expense Diary is a simple tool that helps you track your expenses.
 
-## Available Scripts
+## Thinking about what is unique in this
 
-In the project directory, you can run:
+![Just Wait](./public/images/justwait.gif)
 
-### `npm start`
+[!CAUTION]
+### This is not some ordinary Expense Tracker !!, 
+![alt text](image-6.gif)
+This system extracts messages from your iPhone that contain keywords such as 'spent,' 'debited,' or 'credited.' It then uses the OpenAI API in the Spring Boot backend to convert these messages into a JSON object, stores the data in a mongodb database, and allows you to view it through a React application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 1. Shows the recent transactions on the top with red symbolising debited and green symbolising credited
+#### 2. Allows you to add new transactions by sending a message to your iPhone
+#### 3. Shows visualisations of your spends with graphs with featue of seeing Yearly, Monthly, Weekly, and DayWise and with this also shows the TotalMoney out/in with Net profit or loss for the selected time period
+#### 4. Also have a search feature by which you can search according to names, paymentMode, date, debited or credited in your transactions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Set up
 
-### `npm test`
+### How to get the message from iPhone
+You need to have the following setup on your iPhone
+1. Go to Shortcuts>Automation
+2. Create a new automation
+![alt text](image-2.png)
+3. Click on Message
+![alt text](image-1.png)
+4. Add the message "debited","spent"
+![alt text](image-3.png)
+5. Click On create new blank Automation
+![alt text](image-4.png)
+6. Click on add action
+7. Click on Web>Get Content of URL
+8. change request method to post
+9. change the request body to the following
+![alt text](image.png)
+10. The url will consist of the hosted SpringBoot backend connected to MongoDb databse
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### MongoDB
+1. Create a new MongoDB database
+2. Create a new Collection
 
-### `npm run build`
+### Spring Boot backend
+1. Get the backend from the The-Expense-Diary-Mark-1_Backend
+2. In the application.properties file
+add your mongodb database credentials and the OpenAi APIKEY
+3. Run the backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### React Frontend 
+1. Get the frontend from The-Expense-Diary-Mark-1_Frontend
+2. Change the axios requests URL to your hosted backened URL or the localhost
+3. Run the frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Output will look like this
 
-### `npm run eject`
+<video controls src="WhatsApp Video 2024-09-12 at 06.22.34.mp4" title="Title"></video>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# The-Expense-Diary-Mark-1_Frontend-
