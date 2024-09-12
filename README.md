@@ -26,15 +26,21 @@ You need to have the following setup on your iPhone
 > <br>
 > <img src="./image-2.png" width="800" height="200"><br>
 > 3. Click on Message
+> <br>
 > <img src="./image-1.png" width="800" height="200"><br>
+> <br>
 > 4. Add the message "debited","spent"
+> <br>
 > <img src="./image-3.png" width="400" height="600"><br>
+> <br>
 > 5. Click On create new blank Automation
+> <br>
 > !<img src="./image-4.png" width="400" height="600"><br>
 > 6. Click on add action
 > 7. Click on Web>Get Content of URL
 > 8. change request method to post
 > 9. change the request body to the following
+> <br>
 > !<img src="./image.png" width="400" height="600"><br>
 > 10. The url will consist of the hosted SpringBoot backend connected to MongoDb databse
 
