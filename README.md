@@ -28,14 +28,14 @@ You need to have the following setup on your iPhone
 > 3. Click on Message
 > <img src="./image-1.png" width="800" height="200"><br>
 > 4. Add the message "debited","spent"
-> <img src="./image-3.png" width="300" height="600"><br>
+> <img src="./image-3.png" width="400" height="600"><br>
 > 5. Click On create new blank Automation
-> !<img src="./image-4.png" width="300" height="600"><br>
+> !<img src="./image-4.png" width="400" height="600"><br>
 > 6. Click on add action
 > 7. Click on Web>Get Content of URL
 > 8. change request method to post
 > 9. change the request body to the following
-> !<img src="./image.png" width="300" height="600"><br>
+> !<img src="./image.png" width="400" height="600"><br>
 > 10. The url will consist of the hosted SpringBoot backend connected to MongoDb databse
 
 ## MongoDB
@@ -55,7 +55,7 @@ add your mongodb database credentials and the OpenAi APIKEY
 
 
 Output will look like this
-<video src='demo.mp4'></video>
+<video src='demo.mp4' width=180/>
 
 Thanks for dropping by!!
 
