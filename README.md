@@ -61,7 +61,11 @@ add your mongodb database credentials and the OpenAi APIKEY
 
 
 Output will look like this
-(https://drive.google.com/file/d/1APdmivyWeoaqdHL1m4bgF3YN4xwHMKg-/view?usp=drive_link)
+
+
+https://github.com/user-attachments/assets/c7180d32-3c6b-4822-ace6-74be41618611
+
+
 
 
 Thanks for dropping by!!
