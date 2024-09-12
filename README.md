@@ -23,7 +23,7 @@ The Expense Diary is a simple tool that helps you track your expenses.
 You need to have the following setup on your iPhone
 > 1. Go to Shortcuts>Automation
 > 2. Create a new automation
-<br>
+> <br>
 > <img src="./image-2.png" width="800" height="200"><br>
 > 3. Click on Message
 > <img src="./image-1.png" width="800" height="200"><br>
@@ -55,7 +55,7 @@ add your mongodb database credentials and the OpenAi APIKEY
 
 
 Output will look like this
-<video src='demo.mp4' width=180/>
+[Watch the demo video](https://github.com/HKSuryan/The-Expense-Diary-Mark-1_Frontend-/blob/main/demo.mp4)
 
 Thanks for dropping by!!
 
